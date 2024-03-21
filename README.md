@@ -3,3 +3,4 @@
 ## Fundamentals
 
 - Basic Syntax
+- Variables

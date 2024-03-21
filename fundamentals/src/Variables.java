@@ -1,4 +1,4 @@
-public class DataTypeAndVariables {
+public class Variables {
     // Static variable declared outside any method with the 'static' keyword
     static int count = 0;
 
@@ -6,12 +6,12 @@ public class DataTypeAndVariables {
     String color;
     public static void main(String[] args) {
         // example for local variable
-        DataTypeAndVariables example = new DataTypeAndVariables();
+        Variables example = new Variables();
         example.myMethod();
 
         //  examples for instance variable
-        DataTypeAndVariables example2 = new DataTypeAndVariables();
-        DataTypeAndVariables example3 = new DataTypeAndVariables();
+        Variables example2 = new Variables();
+        Variables example3 = new Variables();
         example2.color = "blue";
         example3.color = "red";
 
@@ -19,7 +19,7 @@ public class DataTypeAndVariables {
         System.out.println(example3.color);
 
         // example for static variable
-        System.out.println(DataTypeAndVariables.count);
+        System.out.println(Variables.count);
     }   
 
     public void myMethod() {
