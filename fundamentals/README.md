@@ -52,3 +52,7 @@ Java has the following conditional statements:
 - Use **else if** to specify a new condition to test; if the first condition is false
 - Use **switch** to specify many alternative blocks of code to be executed
 - Use **?,:** operator to specify one line condition
+
+**Functions**
+
+A method/function is a way to perform some task. Similarly, in programming like Java, a function method is a block of code written to perform a specific task repeatedly. It provides reusability of code. We
