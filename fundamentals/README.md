@@ -43,3 +43,12 @@ two types of data types in java
 Type Conversion (Implicit Conversion) - Type conversion, or implicit conversion, happens automatically in Java when data of one type is assigned to another compatible type.
 
 Type Casting (Explicit Conversion) - Type casting, or explicit conversion, is when you manually convert data from one type to another.
+
+**Conditionals**
+Java has the following conditional statements:
+
+- Use **if** to specify a block of code to be executed, if a specified condition is true
+- Use **else** to specify a block of code to be executed if the same condition is false
+- Use **else if** to specify a new condition to test; if the first condition is false
+- Use **switch** to specify many alternative blocks of code to be executed
+- Use **?,:** operator to specify one line condition
