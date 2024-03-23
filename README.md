@@ -4,3 +4,4 @@
 
 - Basic Syntax
 - Variables
+- Data Types

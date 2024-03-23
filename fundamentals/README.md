@@ -7,3 +7,39 @@
 1. Local Variables: These are declared inside a method.
 2. Instance Variables: These are defined without the "STATIC" keyword, outside of any method. They belong to each individual object.
 3. Static Variables: These are initialized only once when the program starts. They need to be initialized before any instance variables.
+
+**Data types** in Java are labels (specifiers) that tell us what kind of information a variable can hold. They specify the size and type of values that can be stored in a variable.
+
+two types of data types in java
+
+1. Primitive Data Type
+
+   - boolean
+   - char
+   - byte
+   - short
+   - int
+   - long
+   - float
+   - double
+
+2. Non-primitive Data Type
+
+   - Classes
+   - Interfaces
+   - Arrays
+
+| Data Type | Default Value | Default Size |
+| --------- | ------------- | ------------ |
+| boolean   | false         | 1 bit        |
+| char      | '\u0000'      | 2 byte       |
+| byte      | 0             | 1 byte       |
+| short     | 0             | 2 byte       |
+| int       | 0             | 4 byte       |
+| long      | 0L            | 8 byte       |
+| float     | 0.0f          | 4 byte       |
+| double    | 0.0d          | 8 byte       |
+
+Type Conversion (Implicit Conversion) - Type conversion, or implicit conversion, happens automatically in Java when data of one type is assigned to another compatible type.
+
+Type Casting (Explicit Conversion) - Type casting, or explicit conversion, is when you manually convert data from one type to another.
